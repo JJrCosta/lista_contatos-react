@@ -21,4 +21,11 @@ export const Container = styled.div`
   margin: 0 auto;
 `
 
+export const Main = styled.main`
+  display: flex;
+  background-color: #263743;
+  height: 100vh;
+  padding: 8px;
+`
+
 export default GlobalReset

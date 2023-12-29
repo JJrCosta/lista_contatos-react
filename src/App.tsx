@@ -1,6 +1,7 @@
 import CardContainer from './containers/CardContainer'
+import ContactContainer from './containers/ContactContainer'
 import Header from './containers/Header'
-import GlobalReset, { Container } from './styles'
+import GlobalReset, { Container, Main } from './styles'
 
 function App() {
   return (
@@ -8,7 +9,10 @@ function App() {
       <GlobalReset />
       <Header />
       <Container>
-        <CardContainer />
+        <Main>
+          <CardContainer />
+          <ContactContainer />
+        </Main>
       </Container>
     </>
   )
