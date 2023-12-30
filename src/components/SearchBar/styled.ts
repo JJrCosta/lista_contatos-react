@@ -9,6 +9,7 @@ export const SearchBarBox = styled.div`
 `
 
 export const SearchBarInput = styled.input`
+  color: #666666;
   margin-right: 8px;
   font-size: 18px;
   border: none;

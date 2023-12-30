@@ -3,10 +3,13 @@ import * as S from './styles'
 
 const ContactContainer = () => {
   return (
-    <S.ContactContainer>
-      <Contact></Contact>
-      <Contact></Contact>
-    </S.ContactContainer>
+    <S.ContactSection>
+      <S.ContactTag>A</S.ContactTag>
+      <S.ContactBlock>
+        <Contact></Contact>
+        <Contact></Contact>
+      </S.ContactBlock>
+    </S.ContactSection>
   )
 }
 

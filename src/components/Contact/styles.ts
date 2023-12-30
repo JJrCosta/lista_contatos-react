@@ -6,7 +6,8 @@ export const Contact = styled.div`
   background-color: #536176;
   padding: 16px;
   height: 100px;
-  width: 320px;
+  min-width: 320px;
+  cursor: pointer;
 `
 
 export const ContactImg = styled.div`
@@ -20,5 +21,4 @@ export const ContactImg = styled.div`
 export const ContactName = styled.p`
   color: #fff;
   font-size: 18px;
-  margin-bottom: 16px;
 `

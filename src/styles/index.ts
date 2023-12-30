@@ -24,8 +24,8 @@ export const Container = styled.div`
 export const Main = styled.main`
   display: flex;
   background-color: #263743;
-  height: 100vh;
   padding: 8px;
+  justify-content: center;
 `
 
 export default GlobalReset
