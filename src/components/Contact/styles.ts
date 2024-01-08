@@ -1,9 +1,10 @@
 import styled from 'styled-components'
+import { Props } from '.'
 
-export const Contact = styled.div`
+export const Contact = styled.div<Props>`
   display: flex;
   align-items: center;
-  background-color: #536176;
+  background-color: ${(props) => (props.active ? '#617FAD' : '#536176')};
   padding: 16px;
   height: 100px;
   min-width: 320px;

@@ -6,8 +6,8 @@ const ContactContainer = () => {
     <S.ContactSection>
       <S.ContactTag>A</S.ContactTag>
       <S.ContactBlock>
-        <Contact></Contact>
-        <Contact></Contact>
+        <Contact active />
+        <Contact />
       </S.ContactBlock>
     </S.ContactSection>
   )
